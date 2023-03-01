@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    background-color: #2d303a;
+    padding: 5px;
+}
+h2{
+    font-family: "lato-black";
+    padding-bottom: 20px;
+    color: #797e6e;
+}
+p{
+    font-family: "lato-light";
+    padding-bottom: 30px;
+    color: #797e6e;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    border: 2px solid #797e6e;
+    margin: 5px;
+    border-radius: 5px;
+    color: #797e6e;
+    padding: 3px;
+    
+
+}
+@media (max-width: 419.98px) { 
+    html,body{
+        font-size: 14px;
+    
+    }
+    li a{
+        width: 100%;
+    }
+    
+
+ }
+@media (min-width: 420px) and (max-width: 575.98px) { 
+    html,body{
+        font-size: 16px;
+    }
+    li a{
+        width: 50%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    html,body{
+        font-size: 18px;
+    }
+    li a{
+        width: 33.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+    html,body{
+
+        font-size: 20px;
+    }
+    li a{
+        width: 25%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    html,body{
+
+        font-size: 22px;
+    }
+    li a{
+        width: 20%;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) { 
+    html,body{
+        font-size: 26px;
+    }
+
+    li a{
+        width: 16.666%;
+    }
+
+    
+   
+ }
+@media (min-width: 1600px){ 
+    html,body{
+        font-size: 28px; }
+
+    li a{
+        width: 14.666%;
+     }
+}
